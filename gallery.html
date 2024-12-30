@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Christmas Cookie Recipe</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            background-color: #1e1e1e;
+            color: #eeeeee;
+        }
+
+        a {
+            text-decoration: none;
+            color: #ff6666;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #2b2b2b;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+            border-radius: 12px;
+        }
+
+        /* Header */
+        .header {
+            background: #8b0000;
+            color: #eeeeee;
+            text-align: center;
+            padding: 20px;
+            border-radius: 12px 12px 0 0;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+
+        .header a {
+            font-size: 0.9rem;
+            margin-top: 10px;
+            color: #ffcccc;
+            display: block;
+        }
+
+        .recipe-meta span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .recipe-meta i {
+            color: #ff6666;
+        }
+
+        .recipe-instructions {
+            margin-top: 20px;
+        }
+
+        .recipe-instructions ol {
+            padding-left: 20px;
+        }
+
+        .recipe-instructions li {
+            margin: 10px 0;
+        }
+
+        .recipe-instructions li::marker {
+            color: #ff6666;
+        }
+
+        .recipe-image {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .recipe-image img {
+            max-width: 100%;
+            border: 5px solid #444;
+            border-radius: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 15px;
+            background: #8b0000;
+            border-radius: 0 0 12px 12px;
+            color: #eeeeee;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .gallery img {
+            border: 3px solid #444;
+            border-radius: 8px;
+            max-width: 100%;
+            width: calc(33.33% - 10px);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>📸 Festive Baking Gallery 🍪</h1>
+        <a href="index.html">🔙 Back to Home</a>
+    </div>
+
+    <div class="recipe-instructions">
+        <p>Feast your eyes on a collection of Christmas bakes and creations made by Santa’s Chef Team and holiday
+            enthusiasts from around the globe. From whimsical gingerbread to photogenic hot chocolates, there's plenty
+            to inspire your next kitchen masterpiece! 🎄✨</p>
+    </div>
+
+    <div class="recipe-image gallery">
+        <img alt="Gingerbread House" src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/f9e7fc6e85b611d6c45ab2104955f9ce/Derivates/01aca0ebb44cbf61b32c4f42c7dcd832b62bee51.jpg">
+        <img alt="Festive Cookies" src="https://www.allrecipes.com/thmb/QYgcRLFqa5ntvlFYx6CD4ndPYCs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ALR-recipe-10110-soft-christmas-cookies-01-4x3-c75844ae9722478cb58056e30593dbbd.jpg">
+        <img alt="Winter Cupcakes" src="https://images.eatsmarter.com/sites/default/files/styles/facebook/public/blue-winter-cupcakes-468357.jpg">
+        <img alt="Holiday Desserts" src="https://www.bhg.com/thmb/XaQscx-J357rItY08gd21GRI7EA=/4000x0/filters:no_upscale():strip_icc()/bhg-winter-dessert-board-8399093-e2d5f0eff8c54d858991a1179048ad97.jpg">
+        <img alt="Hot Chocolate" src="https://images.immediate.co.uk/production/volatile/sites/30/2020/10/Classic-Homemade-Hot-Chocolate-7d8353b.jpg">
+    </div>
+
+    <div class="recipe-instructions">
+        <p>Want to showcase your holiday baking? Snap a picture and share it with us at <strong>santaschefs@northpole.kris</strong>,
+            or tag us with <strong>#FestiveBakes</strong> on social media! Your masterpiece might be featured here. ⭐
+        </p>
+    </div>
+
+    <div class="footer">
+        Made with ❤️ and holiday creativity for HC | <a href="index.html">Back to Home</a>
+    </div>
+</div>
+</body>
+</html>
